@@ -4,22 +4,6 @@
   padding: 0;
 }
 
-.body {
-  background: #b4b4b4;
-}
-
-.logo-size {
-  width: 30px;
-  height: 30px;
-}
-
-.title-stile {
-  font-family: "Arial Narrow";
-  text-align: center;
-  font-size: 72px;
-  color: #6e0a4d;
-}
-
 .navbar a {
   font-family: "Arial Narrow" !important;
   color: aliceblue !important;
@@ -33,7 +17,23 @@ nav ul li {
 }
 
 .bg-nav-propio {
-  background: #6e0a4d;
+  background-color: #6e0a4d;
+}
+
+.body {
+  background: #d30505;
+}
+
+.logo-size {
+  width: 30px;
+  height: 30px;
+}
+
+.title-stile {
+  font-family: "Arial Narrow";
+  text-align: center;
+  font-size: 72px;
+  color: #6e0a4d;
 }
 
 .standar-style {

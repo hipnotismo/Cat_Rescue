@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 $titleColor: #6e0a4d;
 
+//base
+@use 'partials/base/reset';
+@use 'partials/base/tipografia';
 
-* {
-    margin: 0;
-    padding: 0;
-}
+//utilities
+@use 'partials/utilities/variables';
+
+//components
+@use 'partials/components/navbar';
+
 
 .body{
-    background:#b4b4b4;
+    background:#d30505;
 }
 .logo-size {
     width: 30px;
@@ -22,21 +26,7 @@ $titleColor: #6e0a4d;
     color: $titleColor;
 }
 
-.navbar a{
-    font-family: 'Arial Narrow' !important;
-    color:aliceblue !important;
-}
 
-nav ul li {
-    display: inline-block;
-    padding: 4px 16px;
-    font-size: 22px;
-    margin-top: 6px;
-  }
-
-.bg-nav-propio {
-    background: $titleColor;
-}
 
 .standar-style{
     font-family: sans-serif;
