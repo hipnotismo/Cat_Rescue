@@ -17,11 +17,7 @@ nav ul li {
 }
 
 .bg-nav-propio {
-  background-color: #6e0a4d;
-}
-
-.body {
-  background: #d30505;
+  background-color: #0a396e;
 }
 
 .logo-size {
@@ -34,6 +30,12 @@ nav ul li {
   text-align: center;
   font-size: 72px;
   color: #6e0a4d;
+}
+
+.smaller-title {
+  font-family: "Arial Narrow";
+  text-align: center;
+  font-size: 40px;
 }
 
 .standar-style {
