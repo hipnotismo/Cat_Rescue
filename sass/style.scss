@@ -1,0 +1,12 @@
+//base
+@use 'partials/base/reset';
+@use 'partials/base/tipografia';
+
+//utilities
+@use 'partials/utilities/variables';
+
+//components
+@use 'partials/components/navbar';
+@use 'partials/components/fonts';
+@use 'partials/components/carrousel';
+

@@ -1,0 +1,18 @@
+
+$navbarBackgroundColor: #0a396e;
+
+.navbar a{
+    font-family: 'Arial Narrow' !important;
+    color:aliceblue !important;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 4px 16px;
+    font-size: 22px;
+    margin-top: 6px;
+  }
+
+.bg-nav-propio {
+    background-color: $navbarBackgroundColor;
+}
