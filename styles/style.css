@@ -38,7 +38,6 @@ nav ul li {
 
 h2 {
   font-family: "Roboto";
-  font-family: ro;
   font-size: 3.5rem;
   font-weight: bold;
   text-align: center;
@@ -50,7 +49,7 @@ h2 {
 h3 {
   font-family: "Roboto";
   font-size: 2rem;
-  color: rgb(0, 0, 0);
+  color: #333;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -71,7 +70,7 @@ h3 {
 .standar-style {
   font-family: "Roboto";
   font-size: 2rem;
-  color: rgb(24, 23, 23);
+  color: #333;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -79,7 +78,7 @@ h3 {
 .card-font {
   font-family: "Roboto";
   font-size: 1.75rem;
-  color: rgb(10, 10, 10);
+  color: #333;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
 }
