@@ -30,14 +30,15 @@ nav ul li {
 }
 
 .title-style {
-  font-family: "Arial Narrow";
+  font-family: "Roboto";
   text-align: center;
   font-size: 4rem;
   color: #6e0a4d;
 }
 
 h2 {
-  font-family: "Arial Narrow";
+  font-family: "Roboto";
+  font-family: ro;
   font-size: 3.5rem;
   font-weight: bold;
   text-align: center;
@@ -47,14 +48,17 @@ h2 {
 }
 
 h3 {
-  font-family: "Arial Narrow";
+  font-family: "Roboto";
   font-size: 2rem;
   color: rgb(0, 0, 0);
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+  .title-style {
+    font-size: 3rem;
+  }
   h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -65,7 +69,7 @@ h3 {
   }
 }
 .standar-style {
-  font-family: sans-serif;
+  font-family: "Roboto";
   font-size: 2rem;
   color: rgb(24, 23, 23);
   margin-bottom: 1.5rem;
@@ -73,7 +77,7 @@ h3 {
 }
 
 .card-font {
-  font-family: sans-serif;
+  font-family: "Roboto";
   font-size: 1.75rem;
   color: rgb(10, 10, 10);
   margin-bottom: 1.5rem;
@@ -93,10 +97,24 @@ h3 {
   background-color: red;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: red;
+.carousel {
+  width: 100%;
+  padding: 20px;
+}
+.carousel .carousel-img {
+  height: 800px;
+  border-radius: 100px;
 }
 
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+    padding: 8px;
+  }
+  .carousel .carousel-img {
+    height: 200px;
+  }
+}
 .itemform {
   margin: 20px;
 }

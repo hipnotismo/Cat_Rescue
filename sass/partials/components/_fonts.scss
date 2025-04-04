@@ -4,7 +4,7 @@
 }
 
 .title-style{
-    font-family:'Arial Narrow';
+    font-family: "Roboto";
     text-align: center;
     font-size: 4rem;   
 
@@ -12,8 +12,8 @@
 }
 
 h2 {
-    font-family:'Arial Narrow';
-
+    font-family: "Roboto";
+    font-family: ro;
     font-size: 3.5rem;   
     font-weight: bold;
     text-align: center;
@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-    font-family:'Arial Narrow';
+    font-family: "Roboto";
 
     font-size: 2rem;
     color: rgb(0, 0, 0);
@@ -31,7 +31,11 @@ h3 {
     margin-top: 2rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+    .title-style{
+        font-size: 3rem;   
+
+    }
     h2 {
         font-size: 2rem;
         margin-bottom: 1rem;
@@ -44,7 +48,7 @@ h3 {
 }
 
 .standar-style{
-    font-family: sans-serif;
+    font-family: "Roboto";
     font-size: 2rem;
     color: rgb(24, 23, 23);
     margin-bottom: 1.5rem;
@@ -54,7 +58,7 @@ h3 {
 
 
 .card-font{
-    font-family: sans-serif;
+    font-family: "Roboto";
     font-size: 1.75rem;
     color: rgb(10, 10, 10);
     margin-bottom: 1.5rem;
