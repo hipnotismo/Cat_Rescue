@@ -1,22 +1,21 @@
 .logo-size {
-    width: 30px;
-    height: 30px;
+    @include size (30px,30px );
 }
 
 .title-style{
     font-family: "Roboto";
     text-align: center;
-    font-size: 4rem;   
+    font-size: map-get($font-sizes , title-size );   
 
     color: $titleColor;
 }
 
 h2 {
     font-family: "Roboto";
-    font-size: 3.5rem;   
+    font-size:  map-get($font-sizes , small-title-size );   
     font-weight: bold;
     text-align: center;
-    color: #333;
+    color: $fontColor;
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
@@ -24,32 +23,32 @@ h2 {
 h3 {
     font-family: "Roboto";
 
-    font-size: 2rem;
-    color: #333;
+    font-size: map-get($font-sizes ,  smaller-title-size );
+    color: $fontColor;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
 @media (max-width: 768px) {
     .title-style{
-        font-size: 3rem;   
+        font-size: map-get($font-sizes ,  media-title-size );   
 
     }
     h2 {
-        font-size: 2rem;
+        font-size: map-get($font-sizes ,  media-small-title-size );
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
     
     h3{
-        font-size: 1rem;
+        font-size:  map-get($font-sizes ,  media-smaller-title-size);
     }
 }
 
 .standar-style{
     font-family: "Roboto";
-    font-size: 2rem;
-    color: #333;
+    font-size:  map-get($font-sizes ,  smaller-title-size );;
+    color: $fontColor;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -58,8 +57,8 @@ h3 {
 
 .card-font{
     font-family: "Roboto";
-    font-size: 1.75rem;
-    color: #333;
+    font-size:  map-get($font-sizes ,  card-size);;
+    color: $fontColor;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 }
